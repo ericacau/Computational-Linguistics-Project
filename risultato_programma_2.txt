@@ -1,0 +1,530 @@
+
+Secondo programma per il progetto di Linguistica Computazionale (A.A 2018/2019)
+
+Estraggo dai due corpora:
+
+- I 20 TOKEN PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+the occorre	295 volte
+and occorre	226 volte
+I occorre	198 volte
+a occorre	174 volte
+to occorre	172 volte
+is occorre	155 volte
+it occorre	148 volte
+for occorre	103 volte
+with occorre	95 volte
+of occorre	94 volte
+my occorre	92 volte
+this occorre	83 volte
+in occorre	81 volte
+have occorre	61 volte
+was occorre	59 volte
+on occorre	55 volte
+as occorre	53 volte
+that occorre	52 volte
+The occorre	52 volte
+but occorre	52 volte
+
+Corpus: recensioni_negative.txt
+the occorre	294 volte
+to occorre	210 volte
+I occorre	188 volte
+and occorre	176 volte
+a occorre	174 volte
+it occorre	150 volte
+is occorre	126 volte
+of occorre	92 volte
+not occorre	86 volte
+for occorre	84 volte
+this occorre	73 volte
+with occorre	68 volte
+in occorre	67 volte
+on occorre	66 volte
+was occorre	65 volte
+have occorre	61 volte
+you occorre	57 volte
+! occorre	52 volte
+but occorre	48 volte
+my occorre	47 volte
+
+- I 20 SOSTANTIVI PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+card occorre	32 volte
+i occorre	21 volte
+screen occorre	18 volte
+monitor occorre	15 volte
+mouse occorre	15 volte
+issues occorre	13 volte
+product occorre	13 volte
+laptop occorre	13 volte
+time occorre	13 volte
+quality occorre	12 volte
+bit occorre	12 volte
+box occorre	11 volte
+video occorre	10 volte
+price occorre	10 volte
+colours occorre	10 volte
+hair occorre	10 volte
+camera occorre	9 volte
+reviews occorre	9 volte
+pens occorre	9 volte
+games occorre	9 volte
+
+Corpus: recensioni_negative.txt
+Amazon occorre	36 volte
+product occorre	30 volte
+item occorre	19 volte
+time occorre	18 volte
+phone occorre	15 volte
+problem occorre	15 volte
+devices occorre	14 volte
+device occorre	12 volte
+quality occorre	12 volte
+way occorre	12 volte
+watch occorre	12 volte
+box occorre	11 volte
+music occorre	11 volte
+i occorre	11 volte
+money occorre	11 volte
+day occorre	10 volte
+days occorre	10 volte
+clock occorre	9 volte
+Alexa occorre	9 volte
+reviews occorre	8 volte
+
+- I 20 AGGETTIVI PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+good occorre	24 volte
+great occorre	22 volte
+little occorre	13 volte
+easy occorre	13 volte
+nice occorre	12 volte
+small occorre	10 volte
+other occorre	9 volte
+expensive occorre	9 volte
+perfect occorre	8 volte
+big occorre	8 volte
+old occorre	8 volte
+first occorre	8 volte
+more occorre	8 volte
+happy occorre	8 volte
+high occorre	8 volte
+different occorre	8 volte
+same occorre	8 volte
+better occorre	7 volte
+many occorre	7 volte
+best occorre	6 volte
+
+Corpus: recensioni_negative.txt
+other occorre	21 volte
+same occorre	15 volte
+new occorre	13 volte
+more occorre	13 volte
+good occorre	12 volte
+poor occorre	10 volte
+small occorre	9 volte
+first occorre	9 volte
+expensive occorre	9 volte
+cheap occorre	8 volte
+old occorre	8 volte
+many occorre	8 volte
+few occorre	8 volte
+full occorre	7 volte
+different occorre	7 volte
+black occorre	6 volte
+disappointed occorre	6 volte
+great occorre	6 volte
+last occorre	6 volte
+thin occorre	6 volte
+
+- I 20 BIGRAMMI PIU' FREQUENTI SENZA PUNTEGGIATURA, ARTICOLI E CONGIUNZIONI
+Corpus: recensioni_positive.txt
+it is 	occorre	33 volte.
+I have 	occorre	20 volte.
+I was 	occorre	16 volte.
+for my 	occorre	13 volte.
+on my 	occorre	10 volte.
+I am 	occorre	10 volte.
+to get 	occorre	9 volte.
+I bought 	occorre	9 volte.
+easy to 	occorre	9 volte.
+as I 	occorre	9 volte.
+in my 	occorre	8 volte.
+I would 	occorre	8 volte.
+used to 	occorre	7 volte.
+it was 	occorre	7 volte.
+I do 	occorre	7 volte.
+have been 	occorre	7 volte.
+to use 	occorre	7 volte.
+with my 	occorre	6 volte.
+which is 	occorre	6 volte.
+ca n't 	occorre	6 volte.
+
+Corpus: recensioni_negative.txt
+I have 	occorre	21 volte.
+it is 	occorre	18 volte.
+to be 	occorre	17 volte.
+is not 	occorre	14 volte.
+I was 	occorre	14 volte.
+do not 	occorre	13 volte.
+to use 	occorre	13 volte.
+if you 	occorre	12 volte.
+to get 	occorre	11 volte.
+I am 	occorre	10 volte.
+It is 	occorre	9 volte.
+I had 	occorre	8 volte.
+product is 	occorre	8 volte.
+it was 	occorre	8 volte.
+I do 	occorre	8 volte.
+have to 	occorre	8 volte.
+for my 	occorre	7 volte.
+out of 	occorre	7 volte.
+need to 	occorre	7 volte.
+not buy 	occorre	7 volte.
+
+- LE 10 POS (PART-OF-SPEECH) PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+NN 	occorre	1041 volte
+IN 	occorre	779 volte
+DT 	occorre	768 volte
+JJ 	occorre	655 volte
+RB 	occorre	539 volte
+PRP 	occorre	502 volte
+. 	occorre	412 volte
+NNS 	occorre	348 volte
+CC 	occorre	328 volte
+VB 	occorre	281 volte
+
+Corpus: recensioni_negative.txt
+NN 	occorre	1093 volte
+IN 	occorre	777 volte
+DT 	occorre	719 volte
+RB 	occorre	548 volte
+JJ 	occorre	531 volte
+PRP 	occorre	516 volte
+. 	occorre	474 volte
+VB 	occorre	339 volte
+VBD 	occorre	311 volte
+NNP 	occorre	296 volte
+
+- I 10 BIGRAMMI DI POS PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+Il bigramma di POS ('DT', 'NN') occorre	343 volte
+Il bigramma di POS ('IN', 'DT') occorre	252 volte
+Il bigramma di POS ('JJ', 'NN') occorre	241 volte
+Il bigramma di POS ('NN', 'IN') occorre	219 volte
+Il bigramma di POS ('DT', 'JJ') occorre	169 volte
+Il bigramma di POS ('NN', '.') occorre	141 volte
+Il bigramma di POS ('PRP', 'VBP') occorre	126 volte
+Il bigramma di POS ('TO', 'VB') occorre	119 volte
+Il bigramma di POS ('RB', 'JJ') occorre	117 volte
+Il bigramma di POS ('.', 'PRP') occorre	101 volte
+
+Corpus: recensioni_negative.txt
+Il bigramma di POS ('DT', 'NN') occorre	385 volte
+Il bigramma di POS ('IN', 'DT') occorre	258 volte
+Il bigramma di POS ('JJ', 'NN') occorre	193 volte
+Il bigramma di POS ('NN', 'IN') occorre	192 volte
+Il bigramma di POS ('NN', '.') occorre	165 volte
+Il bigramma di POS ('DT', 'JJ') occorre	157 volte
+Il bigramma di POS ('TO', 'VB') occorre	153 volte
+Il bigramma di POS ('.', 'PRP') occorre	131 volte
+Il bigramma di POS ('PRP', 'VBD') occorre	130 volte
+Il bigramma di POS ('PRP', 'VBP') occorre	120 volte
+
+- I 10 TRIGRAMMI DI POS PIU' FREQUENTI
+Corpus: recensioni_positive.txt
+Il trigramma di POS ('IN', 'DT', 'NN') occorre	128 volte
+Il trigramma di POS ('DT', 'JJ', 'NN') occorre	116 volte
+Il trigramma di POS ('DT', 'NN', 'IN') occorre	74 volte
+Il trigramma di POS ('NN', 'IN', 'DT') occorre	68 volte
+Il trigramma di POS ('JJ', 'NN', 'IN') occorre	64 volte
+Il trigramma di POS ('DT', 'NN', 'VBZ') occorre	49 volte
+Il trigramma di POS ('IN', 'DT', 'JJ') occorre	45 volte
+Il trigramma di POS ('DT', 'NN', 'NN') occorre	43 volte
+Il trigramma di POS ('JJ', 'NN', '.') occorre	40 volte
+Il trigramma di POS ('NN', '.', 'PRP') occorre	39 volte
+
+Corpus: recensioni_negative.txt
+Il trigramma di POS ('IN', 'DT', 'NN') occorre	141 volte
+Il trigramma di POS ('DT', 'JJ', 'NN') occorre	106 volte
+Il trigramma di POS ('DT', 'NN', 'IN') occorre	74 volte
+Il trigramma di POS ('NN', 'IN', 'DT') occorre	63 volte
+Il trigramma di POS ('DT', 'NN', '.') occorre	58 volte
+Il trigramma di POS ('NN', '.', 'PRP') occorre	50 volte
+Il trigramma di POS ('IN', 'DT', 'JJ') occorre	49 volte
+Il trigramma di POS ('.', 'PRP', 'VBD') occorre	49 volte
+Il trigramma di POS ('DT', 'NN', 'VBZ') occorre	47 volte
+Il trigramma di POS ('DT', 'NN', 'NN') occorre	47 volte
+
+- I 20 BIGRAMMI FORMATI DA AGGETTIVO E SOSTANTIVO, DOVE OGNI TOKEN HA FREQUENZA > 2:
+ - Piu' frequenti nel corpus recensioni_positive.txt
+different colour 	occorre	2 volte.
+>>> different ricorre nel corpus 8 volte
+>>> colour ricorre nel corpus 7 volte
+
+small one 	occorre	2 volte.
+>>> small ricorre nel corpus 10 volte
+>>> one ricorre nel corpus 26 volte
+
+much money 	occorre	2 volte.
+>>> much ricorre nel corpus 11 volte
+>>> money ricorre nel corpus 6 volte
+
+old camera 	occorre	2 volte.
+>>> old ricorre nel corpus 8 volte
+>>> camera ricorre nel corpus 9 volte
+
+remote control 	occorre	2 volte.
+>>> remote ricorre nel corpus 7 volte
+>>> control ricorre nel corpus 9 volte
+
+good quality 	occorre	2 volte.
+>>> good ricorre nel corpus 24 volte
+>>> quality ricorre nel corpus 12 volte
+
+same time 	occorre	1 volte.
+>>> same ricorre nel corpus 8 volte
+>>> time ricorre nel corpus 13 volte
+
+Excellent quality 	occorre	1 volte.
+>>> Excellent ricorre nel corpus 5 volte
+>>> quality ricorre nel corpus 12 volte
+
+old game 	occorre	1 volte.
+>>> old ricorre nel corpus 8 volte
+>>> game ricorre nel corpus 8 volte
+
+expensive stand 	occorre	1 volte.
+>>> expensive ricorre nel corpus 9 volte
+>>> stand ricorre nel corpus 3 volte
+
+more memory 	occorre	1 volte.
+>>> more ricorre nel corpus 21 volte
+>>> memory ricorre nel corpus 3 volte
+
+great product 	occorre	1 volte.
+>>> great ricorre nel corpus 22 volte
+>>> product ricorre nel corpus 13 volte
+
+few hours 	occorre	1 volte.
+>>> few ricorre nel corpus 5 volte
+>>> hours ricorre nel corpus 5 volte
+
+old mice 	occorre	1 volte.
+>>> old ricorre nel corpus 8 volte
+>>> mice ricorre nel corpus 3 volte
+
+fine job 	occorre	1 volte.
+>>> fine ricorre nel corpus 3 volte
+>>> job ricorre nel corpus 4 volte
+
+thin light 	occorre	1 volte.
+>>> thin ricorre nel corpus 3 volte
+>>> light ricorre nel corpus 9 volte
+
+expensive pack 	occorre	1 volte.
+>>> expensive ricorre nel corpus 9 volte
+>>> pack ricorre nel corpus 5 volte
+
+same range 	occorre	1 volte.
+>>> same ricorre nel corpus 8 volte
+>>> range ricorre nel corpus 6 volte
+
+other reviews 	occorre	1 volte.
+>>> other ricorre nel corpus 9 volte
+>>> reviews ricorre nel corpus 9 volte
+
+great reviews 	occorre	1 volte.
+>>> great ricorre nel corpus 22 volte
+>>> reviews ricorre nel corpus 9 volte
+
+
+ - Piu' frequenti nel corpus recensioni_negative.txt
+few days 	occorre	4 volte.
+>>> few ricorre nel corpus 8 volte
+>>> days ricorre nel corpus 10 volte
+
+new device 	occorre	2 volte.
+>>> new ricorre nel corpus 13 volte
+>>> device ricorre nel corpus 12 volte
+
+several times 	occorre	2 volte.
+>>> several ricorre nel corpus 5 volte
+>>> times ricorre nel corpus 6 volte
+
+poor quality 	occorre	2 volte.
+>>> poor ricorre nel corpus 10 volte
+>>> quality ricorre nel corpus 12 volte
+
+normal use 	occorre	2 volte.
+>>> normal ricorre nel corpus 4 volte
+>>> use ricorre nel corpus 30 volte
+
+great product 	occorre	2 volte.
+>>> great ricorre nel corpus 6 volte
+>>> product ricorre nel corpus 30 volte
+
+only thing 	occorre	2 volte.
+>>> only ricorre nel corpus 26 volte
+>>> thing ricorre nel corpus 6 volte
+
+smart plugs 	occorre	2 volte.
+>>> smart ricorre nel corpus 3 volte
+>>> plugs ricorre nel corpus 8 volte
+
+other one 	occorre	2 volte.
+>>> other ricorre nel corpus 21 volte
+>>> one ricorre nel corpus 26 volte
+
+full charge 	occorre	1 volte.
+>>> full ricorre nel corpus 7 volte
+>>> charge ricorre nel corpus 3 volte
+
+old tv 	occorre	1 volte.
+>>> old ricorre nel corpus 8 volte
+>>> tv ricorre nel corpus 3 volte
+
+full Product 	occorre	1 volte.
+>>> full ricorre nel corpus 7 volte
+>>> Product ricorre nel corpus 5 volte
+
+good thing 	occorre	1 volte.
+>>> good ricorre nel corpus 12 volte
+>>> thing ricorre nel corpus 6 volte
+
+same item 	occorre	1 volte.
+>>> same ricorre nel corpus 15 volte
+>>> item ricorre nel corpus 19 volte
+
+wrong way 	occorre	1 volte.
+>>> wrong ricorre nel corpus 4 volte
+>>> way ricorre nel corpus 12 volte
+
+other customers 	occorre	1 volte.
+>>> other ricorre nel corpus 21 volte
+>>> customers ricorre nel corpus 3 volte
+
+extra money 	occorre	1 volte.
+>>> extra ricorre nel corpus 5 volte
+>>> money ricorre nel corpus 11 volte
+
+other products 	occorre	1 volte.
+>>> other ricorre nel corpus 21 volte
+>>> products ricorre nel corpus 6 volte
+
+same problems 	occorre	1 volte.
+>>> same ricorre nel corpus 15 volte
+>>> problems ricorre nel corpus 7 volte
+
+last thing 	occorre	1 volte.
+>>> last ricorre nel corpus 6 volte
+>>> thing ricorre nel corpus 6 volte
+
+
+ - Con la probabilita' congiunta massima nel corpus recensioni_positive.txt 
+
+different colour 	---probabilita congiunta:      0.000248292985723
+small one 	---probabilita congiunta:      0.000248292985723
+much money 	---probabilita congiunta:      0.000248292985723
+old camera 	---probabilita congiunta:      0.000248292985723
+remote control 	---probabilita congiunta:      0.000248292985723
+good quality 	---probabilita congiunta:      0.000248292985723
+same time 	---probabilita congiunta:      0.000124146492862
+Excellent quality 	---probabilita congiunta:      0.000124146492862
+old game 	---probabilita congiunta:      0.000124146492862
+great product 	---probabilita congiunta:      0.000124146492862
+few hours 	---probabilita congiunta:      0.000124146492862
+old mice 	---probabilita congiunta:      0.000124146492862
+same range 	---probabilita congiunta:      0.000124146492862
+great reviews 	---probabilita congiunta:      0.000124146492862
+same size 	---probabilita congiunta:      0.000124146492862
+Excellent graphics 	---probabilita congiunta:      0.000124146492862
+small camera 	---probabilita congiunta:      0.000124146492862
+long hours 	---probabilita congiunta:      0.000124146492862
+better colours 	---probabilita congiunta:      0.000124146492862
+old card 	---probabilita congiunta:      0.000124146492862
+
+ - Con la probabilita' congiunta massima nel corpus recensioni_negative.txt 
+
+few days 	---probabilita' congiunta:      0.000498318176155
+new device 	---probabilita' congiunta:      0.000249159088078
+several times 	---probabilita' congiunta:      0.000249159088078
+poor quality 	---probabilita' congiunta:      0.000249159088078
+only thing 	---probabilita' congiunta:      0.000249159088078
+other one 	---probabilita' congiunta:      0.000249159088078
+normal use 	---probabilita' congiunta:      0.000249159088078
+great product 	---probabilita' congiunta:      0.000249159088078
+smart plugs 	---probabilita' congiunta:      0.000249159088078
+full charge 	---probabilita' congiunta:      0.000124579544039
+old tv 	---probabilita' congiunta:      0.000124579544039
+full Product 	---probabilita' congiunta:      0.000124579544039
+same item 	---probabilita' congiunta:      0.000124579544039
+wrong way 	---probabilita' congiunta:      0.000124579544039
+full day 	---probabilita' congiunta:      0.000124579544039
+other customers 	---probabilita' congiunta:      0.000124579544039
+more problems 	---probabilita' congiunta:      0.000124579544039
+other products 	---probabilita' congiunta:      0.000124579544039
+same problems 	---probabilita' congiunta:      0.000124579544039
+hard time 	---probabilita' congiunta:      0.000124579544039
+
+ - Con maggiore forza associativa (in termini di LMI) nel corpus recensioni_positive.txt
+different colour  LMI:	16.3366279031
+remote control  LMI:	15.9967779002
+much money  LMI:	15.8625495085
+old camera  LMI:	15.6114877443
+small one  LMI:	11.9066021211
+good quality  LMI:	11.6114877443
+sensitive clicks  LMI:	9.80574387215
+main reason  LMI:	9.80574387215
+fine job  LMI:	9.39070637287
+few clicks  LMI:	9.06877827799
+usable addition  LMI:	9.06877827799
+few times  LMI:	9.06877827799
+whole life  LMI:	8.97566887359
+new experience  LMI:	8.80574387215
+excellent option  LMI:	8.65374077871
+lightweight hairdryer  LMI:	8.65374077871
+excellent order  LMI:	8.65374077871
+bad way  LMI:	8.58335145082
+many users  LMI:	8.58335145082
+old mice  LMI:	8.39070637287
+
+ - Con maggiore forza associativa (in termini di LMI) recensioni_negative.txt
+few days  LMI:	34.5948683495
+smart plugs  LMI:	18.7713653631
+several times  LMI:	18.1275091733
+poor quality  LMI:	14.1275091733
+normal use  LMI:	14.1275091733
+new device  LMI:	13.3704859268
+only thing  LMI:	13.3704859268
+great product  LMI:	12.9575841719
+other one  LMI:	9.75577608269
+larger jiffy  LMI:	9.38568268155
+fine details  LMI:	9.38568268155
+cheaper price  LMI:	9.38568268155
+previous issues  LMI:	9.38568268155
+similar issues  LMI:	9.38568268155
+black band  LMI:	8.80072018082
+black print  LMI:	8.80072018082
+last bit  LMI:	8.80072018082
+nice colour  LMI:	8.64871708738
+full charge  LMI:	8.57832775949
+full power  LMI:	8.57832775949
+
+- LE DUE FRASI CON LA PROBABILITA' PIU' ALTA
+- Probabilita' piu' alta secondo un modello markoviano di ordine 0 nel corpus recensioni_positive.txt
+So I got the mouse. 	con probabilita':      4.59333599739e-14 
+
+- Probabilita' piu' alta secondo un modello markoviano di ordine 0 nel corpus recensioni_negative.txt
+It is very cheap looking. 	con probabilita':      9.74861131256e-15 
+
+
+- Probabilita' piu' alta secondo un modello markoviano di ordine 1 nel corpus recensioni_positive.txt
+This camera takes really good photos. 	con probabilita':      5.84770699713e-07 
+
+- Probabilita' piu' alta secondo un modello markoviano di ordine 1 nel corpus recensioni_negative.txt
+It is very cheap looking. 	con probabilita':      1.07832988268e-06 
+
+

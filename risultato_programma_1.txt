@@ -1,0 +1,96 @@
+
+Primo programma per il progetto di Linguistica Computazionale (A.A. 2018-2019)
+
+Confronto i due corpora per:
+
+- NUMERO FRASI
+Il corpus recensioni_positive.txt contiene:	406 frasi
+Il corpus recensioni_negative.txt contiene:	460 frasi
+Il corpus recensioni_negative.txt ha più frasi del corpus recensioni_positive.txt 
+
+- NUMERO DI TOKEN
+Il corpus recensioni_positive.txt possiede:	8055 token
+Il corpus recensioni_negative.txt possiede:	8027 token
+Il corpus recensioni_positive.txt ha più token del corpus recensioni_negative.txt 
+
+- LUNGHEZZA MEDIA DELLE FRASI IN TERMINI DI TOKEN ---
+La lunghezza media delle frasi del corpus recensioni_positive.txt è pari a:	19.8399014778 token
+La lunghezza media delle frasi del corpus recensioni_negative.txt è pari a:	17.45 token
+Il corpus recensioni_positive.txt ha una lunghezza media delle frasi in termini di token maggiore rispetto al corpus recensioni_negative.txt 
+
+- LUNGHEZZA MEDIA DELLE PAROLE IN TERMINI DI CARATTERI ---
+La lunghezza media delle parole nel corpus recensioni_positive.txt e' di:	3.92067039106 caratteri
+La lunghezza media delle parole nel corpus recensioni_negative.txt e' di:	3.93895602342 caratteri
+Il corpus recensioni_negative.txt ha una lunghezza media dei token in termini di caratteri maggiore rispetto al corpus recensioni_positive.txt 
+
+- GRANDEZZA DEL VOCABOLARIO E VALORE DELLA TYPE TOKEN RATIO (TTR) PER PORZIONI INCREMENTALI DI 1000 TOKEN---
+Crescita del vocabolario nel corpus recensioni_positive.txt
+Vocabolario per i primi 1000 token:	445
+Vocabolario per i primi 2000 token:	732
+Vocabolario per i primi 3000 token:	969
+Vocabolario per i primi 4000 token:	1207
+Vocabolario per i primi 5000 token:	1392
+Vocabolario per i primi 6000 token:	1574
+Vocabolario per i primi 7000 token:	1735
+Vocabolario per i primi 8000 token:	1906
+
+Crescita della TTR nel corpus recensioni_positive.txt
+TTR calcolata sui primi 1000 token:	0.445
+TTR calcolata sui primi 2000 token:	0.366
+TTR calcolata sui primi 3000 token:	0.323
+TTR calcolata sui primi 4000 token:	0.30175
+TTR calcolata sui primi 5000 token:	0.2784
+TTR calcolata sui primi 6000 token:	0.262333333333
+TTR calcolata sui primi 7000 token:	0.247857142857
+TTR calcolata sui primi 8000 token:	0.23825
+
+
+Crescita del vocabolario nel corpus recensioni_negative.txt
+Vocabolario per i primi 1000 token:	444
+Vocabolario per i primi 2000 token:	723
+Vocabolario per i primi 3000 token:	981
+Vocabolario per i primi 4000 token:	1212
+Vocabolario per i primi 5000 token:	1396
+Vocabolario per i primi 6000 token:	1578
+Vocabolario per i primi 7000 token:	1733
+Vocabolario per i primi 8000 token:	1913
+
+Crescita della TTR nel corpus recensioni_negative.txt
+TTR calcolata sui primi 1000 token:	0.444
+TTR calcolata sui primi 2000 token:	0.3615
+TTR calcolata sui primi 3000 token:	0.327
+TTR calcolata sui primi 4000 token:	0.303
+TTR calcolata sui primi 5000 token:	0.2792
+TTR calcolata sui primi 6000 token:	0.263
+TTR calcolata sui primi 7000 token:	0.247571428571
+TTR calcolata sui primi 8000 token:	0.239125
+
+
+- CLASSI DI FREQUENZA |V3|, |V6|, |V9| SUI PRIMI 5000 TOKEN
+Corpus:	recensioni_positive.txt
+Classe di frequenza |V3| =  90
+Classe di frequenza |V6| =  22
+Classe di frequenza |V9| =  7 
+
+Corpus:	recensioni_negative.txt
+Classe di frequenza |V3| =  76
+Classe di frequenza |V6| =  21
+Classe di frequenza |V9| =  5 
+
+- NUMERO MEDIO SOSTANTIVI, AGGETTIVI E VERBI
+Corpus:	recensioni_positive.txt
+Sostantivi:	4.02955665025
+Aggettivi:	1.7315270936
+Verbi:	3.26600985222 
+
+Corpus:	recensioni_negative.txt
+Sostantivi: 	3.64130434783
+Aggettivi: 	1.25434782609
+Verbi: 	3.19782608696 
+
+- DENSITA' LESSICALE
+Densità lessicale nel corpus recensioni_positive.txt 	0.571041948579
+Densità lessicale nel corpus recensioni_negative.txt 	0.580697705986 
+
+
+
